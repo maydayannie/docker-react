@@ -6,4 +6,4 @@ before_install:
     - docker build -t mytravis -f Dockerfile.dev .
 
 script:
-    - docker run mytravic npm run test -- -- coverage
+    - docker run mytravis npm run test -- -- coverage
